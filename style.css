@@ -1,0 +1,257 @@
+.gradient {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8f37ff+0,2d3aef+100 */
+background: #8f37ff; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #8f37ff 0%, #2d3aef 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #8f37ff 0%,#2d3aef 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #8f37ff 0%,#2d3aef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8f37ff', endColorstr='#2d3aef',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */ 
+color: #fff;    
+}
+
+.header1 {
+    background: rgba(239,247,8,0.64);
+background: -moz-linear-gradient(45deg, rgba(239,247,8,0.64) 0%, rgba(142,55,255,0.82) 50%, rgba(18,110,224,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(239,247,8,0.64)), color-stop(50%, rgba(142,55,255,0.82)), color-stop(100%, rgba(18,110,224,1)));
+background: -webkit-linear-gradient(45deg, rgba(239,247,8,0.64) 0%, rgba(142,55,255,0.82) 50%, rgba(18,110,224,1) 100%);
+background: -o-linear-gradient(45deg, rgba(239,247,8,0.64) 0%, rgba(142,55,255,0.82) 50%, rgba(18,110,224,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(239,247,8,0.64) 0%, rgba(142,55,255,0.82) 50%, rgba(18,110,224,1) 100%);
+background: linear-gradient(45deg, rgba(239,247,8,0.64) 0%, rgba(142,55,255,0.82) 50%, rgba(18,110,224,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff708', endColorstr='#126ee0', GradientType=1 );
+}
+
+@-webkit-keyframes color-change-2x{0%{background:#19dcea}100%{background:#b22cff}
+}
+@keyframes color-change-2x{0%{background:#19dcea}100%{background:#b22cff}
+}
+
+header2 {
+background: linear-gradient(to left, #1dc5d6, #2eff6c);
+}
+
+/** Error Messages **/
+
+/** Styling for the username field **/
+label.item.has-error {
+  border-bottom: 2px solid #efd339;
+}
+
+/** Styling for the password field when an error exists**/
+label.item.has-error-lr {
+  border-bottom: 2px solid #efd339;
+}
+
+/** Styling for the password field when an error has been resolved**/
+label.item.valid-lr {
+  border-left: 2px solid #4c9b4c;
+  border-right: 2px solid #4c9b4c;
+}
+
+/** Styling for the error text and container **/
+.form-errors {
+  margin: 3px 0
+}
+
+.form-error {
+  padding: 2px 0 2px 16px;
+  color: #efd339;
+}
+
+/** Styling for the popups **/
+
+.popup {
+  border-radius: 3% !important;
+  font-family: "Montserrat" !important;
+
+}
+
+.popup-body {
+  overflow: inherit !important;
+  box-shadow: 1px 2px 2px 1px rgba(9, 9, 154, 0.46);
+  text-align: center;
+  position: relative;
+}
+
+/** Styling for the spinner **/
+
+.spinner svg {
+  width: 24px;
+  height: 24px;
+  stroke: #8F37FF;
+  fill: #FFF;
+}
+
+/** Styling for the footer-branding **/
+
+.branding {
+  width: 100%;
+  max-width: 300px
+  margin: auto;
+  margin-left: auto;
+  text-align: center;
+}
+ 
+.scroll-content {
+  overflow: visible !important;
+}
+ 
+.platform-ios.platform-cordova:not(.fullscreen) .has-header {
+  /*top:0px;*/
+}
+
+/** Styling for the Algolia Logo **/
+.float-algolia {
+background-color: #000;
+opacity: 0.7;
+border-radius: 0px; 
+    border-bottom: 10px;
+    border-bottom-color: aliceblue;
+padding: 2px;
+position: fixed;
+bottom: 8%;
+left: 0px;
+right: 0px;
+z-index: 1000;
+}
+
+.float-algolia .height_fix {
+  margin-top: 100%;
+  border: 1px solid #FFF;
+}
+
+/** Styling for the Search-thumbnail-image **/
+.item-thumbnail-right img {
+  object-fit: contain;
+  overflow: hidden;
+  background-size: contain;
+  background-position: center top;
+  background-repeat: no-repeat;
+  border-radius: 0 8px 8px 0; 
+  border: 12px solid #ffffff;
+  top: 0px !important;
+  bottom: 0px !important;
+  right: 0px !important;
+  max-width: 106px !important;
+  max-height: 180px !important;
+  background-image: url('/img/');
+}
+
+
+/** Styling for the Analysis wrapper **/
+
+#wrapper {
+  position: relative;
+  float: left;
+}
+
+#wrapper h4 {
+  bottom: 5%;
+  color: #fff;
+  background-color:#000;
+  display: block;
+  left: 10px;
+  right: 10px;
+  padding: 0.25em 0.75em;
+  position: absolute;
+}
+
+#wrapper p {
+  bottom: -10px;
+  color: #fff;
+  background-color:rgba(0, 0, 0, 0.40);
+  font-style: bold;
+  padding: 24px;
+  display: grid;
+  font-size: 1em;
+  left: 0;
+  right: 0;
+  padding: 0.75em 1.50em;
+  position: absolute;
+}
+
+/** Styling for the test wrapper **/
+.introwrapper {
+  position: relative;
+  float: left;
+}
+
+.introwrapper h2 {
+  top: 10%;
+  color: #8f37ff;
+  display: block;
+  font-size: 2.00em;
+  left: 0;
+  padding: 0.25em 0.75em;
+  position: absolute;
+}
+
+.introwrapper p {
+  top: 60%;
+  color: #8f37ff;
+  font-style: bold;
+  padding: 25px;
+  display: block;
+  font-size: 1.5em;
+  right: 0;
+  padding: 0.75em 1.50em;
+  position: absolute;
+}
+
+/** Styling for the Search animation **/
+
+.search-item {
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/** Styling for the Stream animation **/
+.stream-item {
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+.stream-d-item {
+    -webkit-animation: bounceInUp 2s;
+    animation: bounceInUp 2s;
+}
+
+/** Styling for the Intro animation **/
+#intro-slide24 h1 {
+    -webkit-animation: bounce 2s;
+    animation: bounce 2s;
+    -webkit-animation-delay:200ms;
+    animation-delay:200ms;
+
+     /* override to make sure it's not inherited from other styles */
+     -webkit-animation-duration:0;
+  animation-duration:0;
+}
+
+.bounce-top {
+	-webkit-animation: bounce-top 0.9s both;
+	-moz-animation: bounce-top 0.9s both;
+	animation: bounce-top 0.9s both;
+}
+
+
+#login-list3 label {
+  border-top: transparent;
+}
+
+#signup-list2 label {
+  border-top: transparent;
+}
+
+#forget-list10 label {
+  border-top: transparent;
+}
+
+body {
+    padding: 40px; 
+    margin: 10px; 
+    align-content: center;
+}
+
+#search-header input {
+   font-size: 1em;
+   text-decoration: underline;
+}

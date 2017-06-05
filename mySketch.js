@@ -1,16 +1,19 @@
+var canvas;
 var numbersChecked;
-var blockSize = 5;
+var blockSize = 10;
 var maxN;
 var curN;
 var curM;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight); 
+  canvas = createCanvas(displayWidth, displayHeight); 
 //  createCanvas(200, 200); 
+  canvas.position(0, 0);
+  canvas.style('z-index', '-1');
   noSmooth();
   noStroke();
   colorMode(HSB, 1.0);
-  rectMode(CORNER);
+  rectMode(CENTER);
   maxN = Math.floor(width/blockSize) * Math.floor(height/blockSize);
   restart();
 } 
@@ -41,7 +44,7 @@ function nextN() {
       restart();
     }
   }
-  fill(255);
+  fill(0);
   numbersChecked[curN] = true;
   drawPoint(curN);
   curM = 2*curN;
@@ -54,6 +57,10 @@ function nextM() {
   curM += curN;
 }
 
+function windowResized() {
+  resizeCanvas(displayWidth, displayHeight);
+}
+
 function draw() {
   if (curM > maxN) {
     nextN();
@@ -62,4 +69,5 @@ function draw() {
       nextM(); 
     }
   }
+  ellipse(mouseX, mouseY, 100, 100);
 }
