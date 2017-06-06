@@ -6,7 +6,7 @@ var curN;
 var curM;
 
 function setup() {
-  canvas = createCanvas(displayWidth, displayHeight); 
+  canvas = createCanvas(windowWidth, windowHeight); 
 //  createCanvas(200, 200); 
   canvas.position(0, 0);
   canvas.style('z-index', '-1');
@@ -58,7 +58,7 @@ function nextM() {
 }
 
 function windowResized() {
-  resizeCanvas(displayWidth, displayHeight);
+  resizeCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
