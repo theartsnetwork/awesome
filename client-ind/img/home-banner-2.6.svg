@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X6 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="300px" height="120px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 300 120"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil3 {fill:none}
+    .fil0 {fill:#0D1925}
+    .fil1 {fill:#1D3649}
+    .fil2 {fill:#63A52F}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M0 0l300 0 0 120 -300 0 0 -120z"/>
+   </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <polygon class="fil0" points="0,0 300,0 300,120 0,120 "/>
+  <g style="clip-path:url(#id0)">
+   <g id="_932396320">
+    <path id="1" class="fil1" d="M294 -40c-27,0 2,0 -20,0 1,54 -19,51 -61,58 -51,7 -87,60 -107,102l188 0 0 -160z"/>
+    <path class="fil2" d="M303 -40c-27,0 -1,0 -23,0 1,54 -15,59 -58,62 -52,4 -87,56 -107,98l188 0 0 -160z"/>
+   </g>
+  </g>
+  <polygon class="fil3" points="0,0 300,0 300,120 0,120 "/>
+ </g>
+</svg>
