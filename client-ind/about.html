@@ -32,32 +32,32 @@
 
         <div id="section3" class="feature5">
             <div class="col-12" style="text-align: center">
-                    <img src="img/environment.png" width="100%" height="auto" alt="Environment">
-                    <button class="ctas-button my_popup_open" width="160px"><h2>Director's Message</h2></button>
-                </div>
-                <div id="my_popup">
-            <div style="background: #FFF; padding: 30px 10px 30px 10px; border-radius: 6px;" class="container-sml flex">
-                <div class="col-12">
-                    <div style="display: block; text-align: left;"><img src="img/indmark.png" width="auto" height="60px" alt="Indmark">
-                        <p style="color: #63b32e">Exceeding Sustainability</p>
-                    </div>
-                    <div class="spacer" style="width: auto; height: 20px;"></div>
+                <img src="img/aout-us.svg" width="100%" height="100%" alt="Environment">
+                <button class="ctas-button my_popup_open" width="160px"><h2>Director's Message</h2></button>
+            </div>
+            <div id="my_popup">
+                <div style="background: #FFF; padding: 30px 10px 30px 10px; border-radius: 6px;" class="container-sml flex">
+                    <div class="col-12">
+                        <div style="display: block; text-align: left;"><img src="img/indmark.png" width="auto" height="60px" alt="Indmark">
+                            <p style="color: #63b32e">Exceeding Sustainability</p>
+                        </div>
+                        <div class="spacer" style="width: auto; height: 20px;"></div>
 
-                    <h3>
-                        DIRECTOR'S MESSAGE
-                    </h3>
-                    </br>
-                    <p class="paragraph">
-                        Indmark’s commitment to minimise the impact of its activities on the environment has led to the development of Square Fiber Drums in 2017. A product range that lessens the environmental impact of both production and distribution, Square Fiber Drums are a crucial development in our pursuit of excellence and environmental sustainability.
-                        </br>Since our outset in 1992, Indmark has set new industry standards in manufacturing Cable Trays, Erection Materials and Hot-Dip Galvanizing. We join forces with a global clientele to develop products that bear the highest quality standards. And we believe that our Square Fiber Drums will continue to deliver with that devotion.
+                        <h3>
+                            DIRECTOR'S MESSAGE
+                        </h3>
                         </br>
-                        </br><b>Narendra Meher</b>
-                        </br>Managing Director
-                        </br>INDMARK Group
-                    </p>
+                        <p class="paragraph">
+                            Indmark’s commitment to minimise the impact of its activities on the environment has led to the development of Square Fiber Drums in 2017. A product range that lessens the environmental impact of both production and distribution, Square Fiber Drums are a crucial development in our pursuit of excellence and environmental sustainability.
+                            </br>Since our outset in 1992, Indmark has set new industry standards in manufacturing Cable Trays, Erection Materials and Hot-Dip Galvanizing. We join forces with a global clientele to develop products that bear the highest quality standards. And we believe that our Square Fiber Drums will continue to deliver with that devotion.
+                            </br>
+                            </br><b>Narendra Meher</b>
+                            </br>Managing Director
+                            </br>INDMARK Group
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
             <div class="container-sml">
                 <div class="col-12">
                     <h3 class="heading text-center">
@@ -69,6 +69,7 @@
 
                             With distinctive, proficient methodologies and object-oriented task force, Indmark has continually surpassed service expectations, making it the house of choice for sterling associates such as Larsen & Toubro, Reliance, Suzlon, TATA Projects and numerous others. Being certified with ISO 9001 :2008 and Dun & Bradstreet Global Database, We bring an indigenous interpretation to streamline the quality of all important aspects of our products, right from the raw material resources, product preparation and procedure execution- towards the enhancement of our extensive product range.
                         </p>
+
                     </div>
                 </div>
             </div>
@@ -99,7 +100,8 @@
                 </div>
                 <div class="col-4 vertical">
                     <p>307/10, Nanekarwadi, Chakan MIDC</br>
-                       Pune - 410501.<p>
+                        Pune - 410501.
+                        <p>
                 </div>
             </div>
         </div>
@@ -123,37 +125,22 @@
             });
 
         </script>
-        <!-- Menu Scroll -->
-        <script type="text/javascript">
-            jQuery('a[href^="#"]').click(function(e) {
+        <!-- Popup Overlay -->
+        <script src="https://cdn.rawgit.com/vast-engineering/jquery-popup-overlay/1.7.13/jquery.popupoverlay.js"></script>
 
-                jQuery('html,body').animate({
-                    scrollTop: jQuery(this.hash).offset().top
-                }, 1000);
+        <script>
+            $(document).ready(function() {
 
-                return false;
-
-                e.preventDefault();
-
+                // Initialize the plugin
+                $('#my_popup').popup({
+                    color: '#333',
+                    opacity: 0.5,
+                    transition: '0.3s',
+                    scrolllock: false
+                });
             });
-
+            
         </script>
-         <!-- Popup Overlay -->
-    <script src="https://cdn.rawgit.com/vast-engineering/jquery-popup-overlay/1.7.13/jquery.popupoverlay.js"></script>
-
-    <script>
-        $(document).ready(function() {
-
-            // Initialize the plugin
-            $('#my_popup').popup({
-                color: '#333',
-                opacity: 0.5,
-                transition: '0.3s',
-                scrolllock: false
-            });
-        });
-
-    </script>
 </body>
 
 </html>
