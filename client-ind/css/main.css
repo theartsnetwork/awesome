@@ -2,20 +2,19 @@
 
 * {
     font-family: 'Raleway', sans-serif;
-}
-
+ }
 
 }
 .footer,
 .header {
-    background: linear-gradient(to left, #fff, #63b32e);
+    background: linear-gradient(to left, #fff, #fff);
 }
 .ctas-button {
-    color: #444;
+    color: #112131;
 }
 .ctas .twocta .ctas-button-2 {
-    border: 1px solid #333;
-    color: #333 !important;
+    border: 1px solid #112131;
+    color: #112131 !important;
 }
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 *,
@@ -53,7 +52,7 @@ body {
 }
 .paragraph {
     font-size: 18px;
-    line-height: 32px;
+    line-height: 30px;
     font-weight: 300;
 }
 .heading+.paragraph {
@@ -63,7 +62,7 @@ body {
     margin-top: 10px;
 }
 p.paragraph {
-    color: #555;
+    color: #112131;
 }
 .logo {
     font-size: 30px;
@@ -598,7 +597,7 @@ label {
 }
 
 hr.border1 {
-    border-top: 1px dashed #ccc;
+    border-top: none;
 }
 
 #my_popup {
@@ -648,7 +647,7 @@ hr.border1 {
     border-bottom-color: #374d78;
 }
 .btn.btn-submit:hover {
-    background-color: #5f7db6;
+    background-color: #63b32e;
 }
 form {
     max-width: 100%;
@@ -686,7 +685,7 @@ form ul li .divider {
     background-image: linear-gradient(to right, #63b32e, #112131);
 }
 form ul li .req {
-    color: #ee9cb4;
+    color: #63b32e;
 }
 form label {
     display: block;
@@ -705,7 +704,7 @@ form textarea {
     border: 1px solid #ccc;
     padding: 6px 10px;
     width: 100%;
-    color: #555;
+    color: #112131;
 }
 form small {
     color: #112131;
@@ -749,15 +748,6 @@ form small {
 .current {
     color: #63b32e;
  }
-
-
-.home-banner01 {
-    background-image: url('img/slide-show-back01.svg'); 
-    background-position: center; 
-    background-size: cover; 
-    background-repeat: no-repeat;
-    padding: 40px;
-}
 
 #element-for-environment {
    position: relative;
