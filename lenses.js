@@ -8,7 +8,7 @@ function setup() {
   canvas = createCanvas(windowWidth, windowHeight); 
   canvas.position(0, 0);
   canvas.style('z-index', '-1');
-  pic = loadImage("pic2.jpg");
+  pic = loadImage("images/pic2.jpg");
   mask = loadImage("mask.png");
 } 
 
